@@ -1,0 +1,47 @@
+- title: Trentino
+  id: trentino
+  bg-color: '#021622'
+  offer-bg-color: '#15222b'
+  description: From the northern tip of Lake Garda to the pale peaks of the Dolomites, Trentino is awash with alpine charms. Verdant, rolling mountains shelter famed Borghi. Discover one of the most beautiful medieval villages in Italy, Rango, or head to San Lorenzo in Banale, the gateway to the picturesque Sarca Valley. Trentino is characterized by long mountain walks, alpine delights, and a culinary adventure that blurs the line between Italian feasting and a rich mountain larder.
+
+- title: Veneto
+  id: veneto
+  bg-color: '#131825'
+  offer-bg-color: '#1e2533'
+  description: Home to Venice, Verona and Padua amongst others, Veneto is a renaissance marvel that borders Lake Garda, the Dolomites and the Adriatic. Explore Venetian Borghi, from Asolo to Borghetto, for irresistable medieval charms, before exploring regional specialities further afield. Taste the red Amarone from Valpolicella, head to the hills of Conegliano for Prosecco Superiore, or try the eponymous spirit at idyllic Bassano del Grappa.
+
+- title: Tuscany
+  id: tuscany
+  bg-color: '#131c12'
+  offer-bg-color: '#1b231b'
+  description: Tuscany, a covetable Italian starlet, offers rolling valleys home to vineyards of international renown, a patchwork of medieval hilltop Borghi, and artistry from the masters in Pisa and Siena. Head to ‘Little Jerusalem’, the enchanting hilltop town of Pitigliano with utterly beguiling medieval architecture. Get lost in the warren of alleyways, seeking out trattorias and enotecas. Don’t miss San Miniato, a veritable foodie destination known for its local white truffles. The butchers Falaschi is great stop for cold cuts, serving most of the acclaimed restaurants in the town.
+
+- title: Umbria
+  id: umbria
+  bg-color: '#21190d'
+  offer-bg-color: '#29251e'
+  description: Known as the green heart of Italy, Umbria is framed by rolling green valleys interrupted by medieval towns that cling precariously to the tops of towering peaks. The gothic centre of Orvieto and the sublime calling of Assisi are treasured destinations, yet cultural highlights await in the region’s Borghi. Arrone clings to a rising mountain in medieval splendour, with a cascading waterfall adding to the Borgo’s drama. Corciano and Deruta typify the region’s charms, with romanesque towers piercing the sky.
+
+- title: Marche
+  id: marche
+  bg-color: '#101f0c'
+  offer-bg-color: '#20291e'
+  description: A little-known treasure, Le Marche rises dramatically in the west to the peaks of Monti Sibillini, only to fall gracefully to the warm shores of the Adriatic. Between the two you’ll find Renaissance artistry, labyrinthine streets filled with welcoming enotecas, and gothic towers that dominate this classical landscape. Urbino, Raphael’s hometown, is a Renaissance jewel, whereas Ascoli Piceno is a resplendent setting for arts and culture. Discover a collection of romantic Borghi, like medieval Corinaldo with its dramatic mountain backdrop, or the hilltop charms of Cingoli. There’s a host to choose from, each testament to the sheer beauty of the Italian countryside.
+
+- title: Sicily
+  id: sicily
+  bg-color: '#071d23'
+  offer-bg-color: '#17282d'
+  description: Italy’s major island is an enchanting place, bustling with myths, legends and bucketloads of charm. A fervent mix of cultures, Sicily has been home to great civilizations, roving conquerors, and impassioned settlers, each leaving a striking mark in the villages, towns and cities of this remarkable island. This mix offers culinary diversity, to be enjoyed amongst ancient Greek temples, Arabic domes, Byzantine grandeur and Baroque splendour. Alight at the hilltop terracotta and technicolour marvel of Castiglione di Sicilia, or peer over the verdant landscape from Gangi, with Mt Etna looming large in the backdrop.
+
+- title: Apulia
+  id: apulia
+  bg-color: '#091819'
+  offer-bg-color: '#1f2c2d'
+  description: Apulia is distilled Italian charm, where long Mediterranean beaches are lapped by azure waters and fringe an interior beset with romantic hilltop villages. The food is delicious and the wine is unforgettable. For too long, tourism has neglected the wider region in favour of its capitals, missing out on the Baroque marvel of Lecce, the iconic trulli – the rather odd conical folk houses – and the white-washed Borghi of the region’s north. A true foodie region, seafood is abundant, bread from here is coveted, and Apulian primitivo flows from every enoteca. Lose yourself in the hilltop towns, head to the beach and discover the real Apulia.
+
+- title: Sardinia
+  id: sardinia
+  bg-color: '#0d1a1f'
+  offer-bg-color: '#152125'
+  description: Famed for captivating white-sand beaches with remarkably clear waters, brightly coloured seaside towns and a host of idiosyncrasies, Sardinia is in no way a typical Italian destination. Even the staples of any Italian trip are done differently – the pasta is different, as is the wine. The mountainous interior offers a wild landscape, littered with the iconic nuraghi Bronze Age ruins that pop up as frequently as the irresistible Borghi which sit high on hills across the island. Oddities like the street art that adorns the walls of Orgosolo, or the island full of roaming albino donkeys, complete any Sardinian experience.

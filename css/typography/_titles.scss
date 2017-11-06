@@ -1,0 +1,101 @@
+.title {
+  display: block;
+  font-family: $font-family-headline-01;
+  line-height: 1.33;
+  font-weight: 400;
+  &--display {
+    font-family: $font-family-headline-02;
+    line-height: 1;
+    font-weight: 700;
+    // all of this for non oldstyle numbers
+    // this isn't working, should make svg and png, solid fallback. dont really need the numbers
+    font-variant-numeric: lining-nums;
+    -moz-font-feature-settings: "lnum" 1;
+    -moz-font-feature-settings: "lnum=1";
+     -ms-font-feature-settings: "lnum" 1;
+      -o-font-feature-settings: "lnum" 1;
+    -webkit-font-feature-settings: "lnum" 1;
+            font-feature-settings: "lnum" 1;
+  }
+
+  &--core {
+    font-family: $font-family;
+    line-height: 1.25;
+    font-weight: 200;
+  }
+
+  & + *         { margin-top: $s0; }
+  &--sub        { margin-top: 0 !important; }
+  &--super + *  { margin-top: 0 !important; }
+  &--light      { font-weight: 200; }
+  &--bold       { font-weight: 500; }
+  &--bolder     { font-weight: 600; }
+  &--kerning    { letter-spacing: .25em; }
+  &--kerning-lg { letter-spacing: .5em; }
+  &--tight      { line-height: .9; }
+  &--tighter    { line-height: .8; }
+  &--capital    { text-transform: capitalize; }
+  &--upper      { text-transform: uppercase; }
+  &--italic     { font-style: italic; }
+
+  &--display-size { font-size: $s9; }
+  &--xxxxxl       { font-size: $s7; }
+  &--xxxxl        { font-size: $s7; }
+  &--xxxl         { font-size: $s7; }
+  &--xxl          { font-size: $s6; }
+  &--xl           { font-size: $s5; }
+  &--lg           { font-size: $s4; }
+  &--md           { font-size: $s3; }
+  &--sm           { font-size: $s2; }
+  &--xs           { font-size: $s1; }
+  &--xxs          { font-size: $s0; }
+  &--xxxs         { font-size: $s-1; }
+
+  @include bp(md){
+    &--display-size { font-size: $s11; }
+    &--xxxxxl       { font-size: $s10; }
+    &--xxxxl        { font-size: $s9; }
+    &--xxxl         { font-size: $s8; }
+    &--xxl          { font-size: $s7; }
+    &--xl           { font-size: $s6; }
+    &--lg           { font-size: $s5; }
+    &--md           { font-size: $s4; }
+    &--sm           { font-size: $s3; }
+  }
+  @include bp(lg){
+    &--display-size { font-size: $s13; }
+    &--xxxxxl       { font-size: $s12; }
+    &--xxxxl        { font-size: $s10; }
+    &--xxxl         { font-size: $s9; }
+    &--xxl          { font-size: $s8; }
+    &--xl           { font-size: $s7; }
+    &--lg           { font-size: $s6; }
+    &--md           { font-size: $s5; }
+    &--sm           { font-size: $s4; }
+    &--xs           { font-size: $s3; }
+    &--xxs          { font-size: $s2; }
+    &--xxxs         { font-size: $s1; }
+  }
+
+  &--fancy {
+    position: relative;
+    display: inline-block;
+    margin-top: $s4;
+    margin-bottom: $s2;
+    line-height: 1;
+    letter-spacing: -.015em;
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      display: block;
+      height: 1px;
+      background-color: rgba($white, .5);
+    }
+    &:before { top: -16px; }
+    &:after  { bottom: -7px; }
+  }
+
+}

@@ -1,0 +1,107 @@
+<div class="offer" data-panel-id="{{offer.id}}">
+
+  <a href="{{offer.link}}">
+    <div class="bg-img bg-img--16-9" style="background-image: url('{{site.baseurl}}/img/offers/{{offer.id}}/main.jpg');"></div>
+  </a>
+
+  <div class="space--xl"></div>
+
+  <div class="row row--padding">
+
+    <div class="row row--8-4-gutters">
+      <div class="col page__content">
+        <h1 class="title title--md">{{offer.title}}</h1>
+        <h2 class="title title--core title--upper title--kerning title--xxxs">{{offer.location}}</h2>
+        <p class="text--lg">{{offer.description}}</p>
+      </div>
+      <div class="col">
+        <div class="bg--grey-lightest boxpad--md">
+          <p class="text--lg">From <span class="title--xs title--bold text--red">£{{offer.price}}</span> {{offer.price-description}}</p>
+          <p class="text--lg">Save up to <span class="title--xs title--bold text--red">{{offer.saving}}%</span></p>
+          <a href="{{offer.link}}" class="btn btn--red">Request Booking</a>
+        </div>
+        <div class="space--md"></div>
+        <div class="text--center">
+          <p class="text--sm">Brought to you by &nbsp;&nbsp;<img style="max-width: 50px; vertical-align: middle;" src="{{site.baseurl}}/img/logo/partner-color.png" alt="{{site.client.title}} logo"></p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="page__content">
+      <div class="row">
+        <div class="row--xl">
+          <h2 class="title title--core title--upper title--kerning title--xxxs">Hotel</h2>
+          <h3 class="title title--sm">{{offer.hotel.title}}</h3>
+          <p class="text--lg">{{offer.hotel.description}}</p>
+          {% if offer.hotel.link %}<p class="text--sm text--light">See <a class="a--subtle" href="{{offer.hotel.link}}" target="_blank">{{offer.hotel.title}}'s website</a> for more information</p>{% endif %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="img-block img-block--3-3-3">
+          <div class="bg-img bg-img--1-1" style="background-image: url('{{site.baseurl}}/img/offers/{{offer.id}}/01.jpg')"></div
+         ><div class="bg-img bg-img--1-1" style="background-image: url('{{site.baseurl}}/img/offers/{{offer.id}}/02.jpg')"></div
+         ><div class="bg-img bg-img--1-1" style="background-image: url('{{site.baseurl}}/img/offers/{{offer.id}}/03.jpg')"></div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="page__content">
+      <div class="row row--6-6-gutters">
+        <div class="col">
+          <div class="row">
+            <p class="title title--core title--upper title--bolder">Included in package</p>
+            <ul>
+              {% for bullet in offer.included %}
+              <li>{{bullet.text}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <p class="title title--core title--upper title--bolder">Valid dates:</p>
+            <ul>
+              {% for date in offer.valid-dates %}
+              <li>{{date.text}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% if offer.invalid-dates %}
+          <div class="row">
+            <p class="title title--core title--upper title--bolder">Excluded dates:</p>
+            <ul>
+              {% for date in offer.invalid-dates %}
+              <li>{{date.text}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          <div class="row">
+            <p class="title title--core title--upper title--bolder">Not included in package</p>
+            <ul>
+              {% for bullet in offer.excluded %}
+              <li>{{bullet.text}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="page__content">
+      <h4 class="title title--core title--upper title--kerning">Terms & Conditions</h4>
+      <p class="text--sm">{{offer.terms-and-conditions}}</p>
+      <p class="text--sm">Offers brought to you by {{site.client.name}}</p>
+    </div>
+
+    <div class="space--xxxl"></div>
+
+  </div>
+</div>
+

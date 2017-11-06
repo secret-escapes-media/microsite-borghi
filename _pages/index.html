@@ -1,0 +1,80 @@
+---
+layout: default
+id: overview
+nav-order: 1
+title: Borghi of Italy
+intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam natus nihil blanditiis repudiandae, sequi non, eius aliquid molestias architecto, incidunt voluptate asperiores earum omnis quam nemo modi nesciunt accusantium, suscipit?
+---
+
+<div class="site-title">
+  <div class="row row--padding row--xl text--center page__content">
+    <h1>
+      <span class="title title--core title--xxxs title--upper title--kerning-lg">Discover the irresistible</span>
+      <span class="title title--xxxxl title--fancy">Borghi of&nbsp;Italy</span>
+    </h1>
+    <p class="text--xl">Effortlessly romantic, these medieval towns and villages are typified by their irresistible rustic charms, exquisite local cuisine, and breathtaking beauty.</p>
+    <p class="text--lg">From the cool alpine reaches in the north down to the sun-drenched beaches of the southern tip, Italy is awash with a colourful collection of remarkable rural retreats. Borghi are part of the fabric of Italian life, where tradition in food and drink and in culture and architecture are upheld and venerated. Discover a culinary adventure, try irresistible wine, allow breathtaking landscapes to seduce and beguile, and lose yourself in the enchanting tapestry of Italy’s Borghi.</p>
+  </div>
+  {% include nav/microsite-nav.html %}
+</div>
+
+{% for region in site.data.regions %}
+  <section id="{{region.id}}" class="region region--{{region.id}} site-header__offset" style="background-image: url('{{site.baseurl}}/img/content/{{region.id}}/bg.jpg'); background-color:{{region.bg-color}};">
+    <div class="region__content">
+      <div class="row vpad--xxl row--xl text--center">
+        <h1 class="region__title title">{{region.title}}</h1>
+        <p class="text--xl">{{region.description}}</p>
+      </div>
+      <div class="row">
+        <div class="img-block img-block--3-3-3">
+          <div class="bg-img bg-img--1-1" style="background-image: url('{{site.baseurl}}/img/content/{{region.id}}/01.jpg')"></div
+         ><div class="bg-img bg-img--1-1" style="background-image: url('{{site.baseurl}}/img/content/{{region.id}}/02.jpg')"></div
+         ><div class="bg-img bg-img--1-1" style="background-image: url('{{site.baseurl}}/img/content/{{region.id}}/03.jpg')"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="{{region.id}}-offers" class="region__hotel">
+      <!-- find if region category has multiple offers -->
+      {% assign hotels-in-category = site.data.offers | where: 'category', region.id %}
+      {% assign number-in-category = hotels-in-category | size %}
+      <!-- choose layout based on number of hotels in region -->
+      {% if number-in-category > 1 %}
+        <!-- show multiple offers - vertical layout -->
+        <div class="row row--xl text--center">
+          <div class="title title--core title--xs title--upper title--kerning-lg">Exclusive {{region.title}} Offers</div>
+        </div>
+        <div class="region__offers">
+          {% for hotel in hotels-in-category %}
+            {% include components/hotel-multiple.html %}
+          {% endfor %}
+        </div>
+      {% else %}
+        <!-- show single offer - horizontal with big title -->
+        <div class="row row--xl text--center">
+          <div class="title title--core title--xxs title--upper title--kerning-lg">Exclusive {{region.title}} Offer</div>
+        </div>
+        <div class="region__offers">
+          {% for hotel in hotels-in-category %}
+            {% include components/hotel-lg.html %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+  </section>
+  {% if forloop.last %}
+    <div class="row row--100 vpad--md text--grey text--center text--sm" style=" background-color:{{region.bg-color}}">
+      <p>© Copyright <span class="js-year">2017</span> Secret Escapes</p>
+    </div>
+  {% endif %}
+{% endfor %}
+
+<div class="panel js-panel">
+  <div class="panel__close js-close-panel"></div>
+  <div class="panel__content">
+    {% for offer in site.data.offers %}
+      {% include components/offer.html %}
+    {% endfor %}
+  </div>
+</div>

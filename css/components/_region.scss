@@ -1,0 +1,33 @@
+.region {
+  padding-bottom: $s10;
+  color: $white;
+  background-color: $b-grey;
+  background-position: top center;
+  background-repeat: no-repeat;
+  &__title {
+    position: relative;
+    z-index: $z-content-upper;
+    font-size: $s10;
+  }
+  &__content {
+    display: block;
+    padding: $s6 $s4;
+  }
+  &__hotel {
+    display: block;
+    padding: $s6 $s4; /// this is repeated from content. Pretty sure I dont need both of these
+  }
+  &__offers {
+    margin-top: $s-3;
+    text-align: center;
+    letter-spacing: $s3;
+  }
+  &__offer {
+    display: inline-block;
+    width: 100%;
+    margin-top: $s3;
+    vertical-align: top;
+    letter-spacing: 0;
+    &--multiple { max-width: 480px; }
+  }
+}

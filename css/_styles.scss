@@ -1,0 +1,87 @@
+// general styles for the project that wouldn't be a reuseable component
+
+.bg {
+  &--black         { background-color: $black; }
+  &--b-grey        { background-color: $b-grey; }
+  &--grey-darker   { background-color: $grey-darker; }
+  &--grey-lightest { background-color: $grey-lightest; }
+  &--white         { background-color: $white; }
+}
+
+.content-bg {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.site-title {
+  height: 100%;
+  padding-top: $core-nav-height-sm;
+  padding-bottom: $core-nav-height-sm;
+  @include bp(md){
+    padding-top: $core-nav-height;
+    padding-bottom: $core-nav-height;
+  }
+  color: $white;
+  .flexbox & {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.img-block {
+  > * { display: inline-block; }
+  &--3-3-3 > * { width: 33.33%; }
+}
+
+.price {
+  color: $b-red;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.intro {
+  color: $white;
+  background-color: rgba($black,.5);
+}
+
+.page--overview {
+  background-image: url('../img/bg/bg.jpg');
+  @include background-attributes;
+  background-attachment: fixed;
+}
+
+.is-stuck {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  z-index: $z-nav-upper;
+}
+
+#veneto-offers {
+  position: relative;
+}
+
+#veneto-offers:before {
+  position: absolute;
+  top: -90px;
+  content:"";
+  display:block;
+  height:90px;
+  padding-top:90px;
+
+
+
+}
+
+// :target:before {
+//   content:"";
+//   top: -$core-nav-height;
+//   position: absolute;
+//   display:block;
+//   background-color: red;
+//   height: $core-nav-height; /* fixed header height*/
+//   width: 20px;
+//   // margin-top: -$core-nav-height; /* negative fixed header height */
+// }

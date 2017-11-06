@@ -1,0 +1,61 @@
+.panel {
+  visibility: hidden;
+  opacity: 0;
+  @include transition;
+  &.is-open {
+    visibility: visible;
+    opacity: 1;
+  }
+  &__close {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-overlay;
+    @include transition;
+    cursor: pointer;
+    .is-open & { background-color: rgba($b-grey,.8); }
+    &:after {
+      // close icon upper left of close area
+      content: 'Close';
+      position: absolute;
+      top: $s3;
+      left: $s3;
+      display: block;
+      background-image: url(../img/icons/close.png);
+      background-repeat: no-repeat;
+      background-size: 25px;
+      width: 100px;
+      height: 25px;
+      padding-left: 40px;
+      color: transparent;
+      text-transform: uppercase;
+      letter-spacing: .25em;
+      line-height: 25px;
+      overflow: hidden;
+      cursor: pointer;
+      @include transition;
+    }
+    &:hover    {
+      background-color: rgba($black,.85);
+      &:after { color: $white; }
+    }
+  }
+  &__content {
+    position: fixed;
+    top: 0;
+    right: -($xxxl);
+    bottom: 0;
+    z-index: $z-overlay-upper;
+    width: 90%;
+    max-width: $xxxl;
+    background-color: $white;
+    overflow-x: auto;
+    @include transition;
+    .is-open &  { right: 0; }
+    // all offers are loaded in panel' content, this hides non selected offers
+    > *         { display: none; }
+    > *.is-open { display: block; }
+  }
+}

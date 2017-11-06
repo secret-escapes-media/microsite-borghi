@@ -1,0 +1,11 @@
+<div class="row row--xxxl row--7-5-gutters row--valign region__offer" style=" background-color:{{region.offer-bg-color}}">
+  <div class="col">
+    <a class="js-open-panel" data-open-panel="{{hotel.id}}"><div class="bg-img bg-img--4-3" style="background-image: url('{{site.baseurl}}/img/offers/{{hotel.id}}/main.jpg')"></div></a>
+  </div>
+  <div class="col boxpad--sm page__content">
+    <div class="title title--sm">{{hotel.title}}</div>
+    <p>{{hotel.description | truncatewords: 38}}</p>
+    <p class="p--small">From <span class="price">£{{hotel.price}}</span> {{ hotel.price-description }}</p>
+    <a class="btn btn--red js-open-panel" data-open-panel="{{hotel.id}}">View Offer</a>
+  </div>
+</div>
