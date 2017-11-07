@@ -7,15 +7,9 @@
   &__title {
     position: relative;
     z-index: $z-content-upper;
-    font-size: $s10;
-  }
-  &__content {
-    display: block;
-    padding: $s6 $s4;
-  }
-  &__hotel {
-    display: block;
-    padding: $s6 $s4; /// this is repeated from content. Pretty sure I dont need both of these
+    font-size: $s6;
+    @include bp(md){ font-size: $s8; }
+    @include bp(xl){ font-size: $s10; }
   }
   &__offers {
     margin-top: $s-3;
@@ -29,5 +23,11 @@
     vertical-align: top;
     letter-spacing: 0;
     &--multiple { max-width: 480px; }
+  }
+  &--padding {
+    padding: $s4 $s2;
+    @include bp(lg){
+      padding: $s6 $s4;
+    }
   }
 }

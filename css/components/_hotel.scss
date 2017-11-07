@@ -1,0 +1,45 @@
+// styles for the hotel-lg component
+// landscape offer card with image ratio changing to match content height
+
+.hotel {
+  position: relative;
+  max-width: 480px;
+  letter-spacing: 0;
+  &__image {
+    display: block;
+    position: relative;
+    @include background-attributes();
+    > a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: $z-content-upper;
+    }
+    &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: 66.666666666667%;
+    }
+  }
+  @include bp(xl){
+    max-width: $xxxl;
+    &__image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      z-index: $z-content;
+      width: 50%;
+      @include background-attributes;
+    }
+    &__content {
+      width: 50%;
+      float: right;
+      padding-top: 8.5%;
+      padding-bottom: 8.5%;
+    }
+  }
+}

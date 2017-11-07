@@ -1,28 +1,28 @@
 <div class="offer" data-panel-id="{{offer.id}}">
 
-  <a href="{{offer.link}}">
-    <div class="bg-img bg-img--16-9" style="background-image: url('{{site.baseurl}}/img/offers/{{offer.id}}/main.jpg');"></div>
+  <a id="tracking-offer-image-{{offer.id}}" href="{{offer.link}}">
+    <div class="bg-img bg-img--1-1 bg-img--md-4-3 bg-img--xl-16-9" style="background-image: url('{{site.baseurl}}/img/offers/{{offer.id}}/main.jpg');"></div>
   </a>
 
   <div class="space--xl"></div>
 
   <div class="row row--padding">
 
-    <div class="row row--8-4-gutters">
-      <div class="col page__content">
+    <div class="offer__top">
+      <div class="offer__title page__content">
         <h1 class="title title--md">{{offer.title}}</h1>
         <h2 class="title title--core title--upper title--kerning title--xxxs">{{offer.location}}</h2>
         <p class="text--lg">{{offer.description}}</p>
       </div>
-      <div class="col">
-        <div class="bg--grey-lightest boxpad--md">
+      <div class="offer__price">
+        <div class="bg--grey-lightest boxpad--md offer__price-box">
           <p class="text--lg">From <span class="title--xs title--bold text--red">£{{offer.price}}</span> {{offer.price-description}}</p>
           <p class="text--lg">Save up to <span class="title--xs title--bold text--red">{{offer.saving}}%</span></p>
-          <a href="{{offer.link}}" class="btn btn--red">Request Booking</a>
+          <a id="tracking-offer-cta-{{offer.id}}" href="{{offer.link}}" class="btn btn--red">Request Booking</a>
         </div>
         <div class="space--md"></div>
         <div class="text--center">
-          <p class="text--sm">Brought to you by &nbsp;&nbsp;<img style="max-width: 50px; vertical-align: middle;" src="{{site.baseurl}}/img/logo/partner-color.png" alt="{{site.client.title}} logo"></p>
+          <p class="text--sm">This offer is brought to you by &nbsp;&nbsp;&nbsp;<img style="max-width: 50px; vertical-align: middle;" src="{{site.baseurl}}/img/logo/partner-color.png" alt="{{site.client.title}} logo"></p>
         </div>
       </div>
     </div>

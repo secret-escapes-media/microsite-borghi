@@ -1,9 +1,9 @@
 <div class="region__offer region__offer--multiple" style="background-color:{{region.offer-bg-color}}">
-  <a class="js-open-panel" data-open-panel="{{hotel.id}}"><div class="bg-img bg-img--3-2" style="background-image: url('{{site.baseurl}}/img/offers/{{hotel.id}}/main.jpg')"></div></a>
+  <a id="tracking-launch-image-{{hotel.id}}" class="js-open-panel" data-open-panel="{{hotel.id}}"><div class="bg-img bg-img--3-2" style="background-image: url('{{site.baseurl}}/img/offers/{{hotel.id}}/main.jpg')"></div></a>
   <div class="col boxpad--md page__content">
     <div class="title title--xs">{{hotel.title}}</div>
     <p>{{hotel.description | truncatewords: 28}}</p>
     <p class="p--small">From <span class="price">£{{hotel.price}}</span> {{ hotel.price-description }}</p>
-    <a class="btn btn--red js-open-panel" data-open-panel="{{hotel.id}}">View Offer</a>
+    <a id="tracking-launch-cta-{{hotel.id}}" class="btn btn--red js-open-panel" data-open-panel="{{hotel.id}}">View Offer</a>
   </div>
-</div><span>&nbsp;</span><!-- this span keeps the whitespace / gutter space between offers -->
+</div><span class="nbsp">&nbsp;</span><!-- this span keeps the whitespace / gutter space between offers -->

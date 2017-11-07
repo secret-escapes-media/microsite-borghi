@@ -17,8 +17,7 @@
 #   hotel:
 #     title: #
 #     description: #
-#     room: #
-#     services: #
+#     link: #
 #   activity: #
 #   terms-and-conditions: #
 #   link: #
@@ -50,12 +49,9 @@
   hotel:
     title: Hotel Gran Chalet Soreghes
     description: Hotel Gran Chalet Soreghes offers typical mountain chalet charms, with panoramic views over this inspiring landscape. Four-star comforts are on-hand, with an on-site Wellness Centre, bar and restaurant where regional produce can be savoured. You’ll be treated to horseback riding through sublime countryside to complete your stay.
-    room: "The Hotel Soreghes offers various types of rooms and suites, almost all of them with balcony, some with panoramic views of the Dolomites, a UNESCO World Heritage site. The Classic Rooms are available with the possibility of adding a third and fourth bed, provided with services, TV-color/satellite, minibar, telephone, safe, hairdryer and most of them with balcony."
-    services: Experience never-ending moments of well-being in our Wellness Centre “La Grotta”, equipped with a whirlpool bath, sauna, Turkish bath and thermal cave. Bar, large lounges and meeting rooms, show room, maxi-screen TV satellite room, recreation room. Garage and carpark, Internet Wi-fi, Garden terrace and outdoor solarium (in summer).
-    meals: "The hotel welcomes you to its Stuben and invites you to savour our breakfasts and meals dedicated to tradition: the quality of the typical local dishes is knowingly combined with refined national and international cooking. We offer abundant buffets at breakfast, during the other meals buffets, salads and homemade desserts. Buffet Breakfast."
     link: http://www.unionhotelscanazei.it/EN/289802/rooms-and-suites-hotel-soreghes.php
   terms-and-conditions: "This offer is based on two adults only and is available for stays on the dates indicated above. Check-in is at 3pm and check-out at 11am (unless otherwise notified). Travel is not included. The offer is 100% non-refundable: one date change is possible only if made 30 days before the arrival date (of the original booking)."
-  link: http://www.bitn.it/book-your-secret-escapes-offer/dolomiti
+  link: http://www.bitn.it/book-your-secret-escapes-offer/dolomiti?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017
 
 
 - id: trentino-02
@@ -83,12 +79,9 @@
   hotel:
     title: Schloss Hotel Dolomiti
     description: Three nights will be spent at the historic Habsburg-era hotel, for a truly regal experience in the mountains. At the Schloss Hotel Dolomiti you’ll enjoy half-board, four-star service, with a restaurant serving typical Ladin, Trentino and Tyrolese fare. You’ll also be guided through the woods, past three spectacular waterfalls, before reaching a traditional chalet for aperitif with breathtaking panorama. A remarkable mountain idyll awaits.
-    room: The SCHLOSS HOTEL DOLOMITI offers various types of rooms and suites that offer every comfort. The Classic Rooms have the possibility of adding a third and fourth bed, provided with services, TV-color/satellite, minibar, telephone, safe, hairdryer and most of them with balcony.
-    services: The hotel has a wellness centre with whirlpool bath, cromotherapy showers, sauna, Turkish bath, relaxarium and gym. Garage and carpark, Internet Wi-Fi, Public park next to the hotel with playground for children.
-    meals: Creativity and passion unite in the preparation of the typical dishes of the Ladin, Trentino and Tyrolese traditions, along with the usual national and international dishes. We offer themed dinners, and vegetable and salad buffets, as well as homemade desserts, are always available. Buffet Breakfast.
     link: http://www.unionhotelscanazei.it/EN/289894/rooms-and-suites.php
   terms-and-conditions: "This offer is based on two adults only and is available for stays on the dates indicated above. Check-in is at 3pm and check-out at 11am (unless otherwise notified). Travel is not included. The offer is 100% non-refundable: one date change is possible only if made 30 days before the arrival date (of the original booking)."
-  link: http://www.bitn.it/book-your-secret-escapes-offer/fassa
+  link: http://www.bitn.it/book-your-secret-escapes-offer/fassa?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017
 
 
 - id: veneto
@@ -122,35 +115,9 @@
   hotel:
     title: Villa Quaranta
     description: You’ll spend three nights at the Villa Quaranta, a 17th century villa offering luxurious four-star service. Breakfast each morning will start your adventures in this glorious region. You’ll also be treated to a bottle of local wine in your room, a four course meal in the hotel restaurant, and entrance to the spa, for a truly invigorating stay.
-    room: DELUXE ROOM ( on request - for the entire stay, for 2 people)79,00 GBP. Standard double rooms, min. 21 sqm, with Italian cotton satin linen, personalized courtesy line, large desk, private bathroom with shower.
-    services:
-      list:
-        - text: WiFi free
-        - text: Parking
-        - text: Reception services
-        - text: Lockers
-        - text: Luggage storage
-        - text: Ticket service
-        - text: 24-hour front desk
-        - text: Entertainment and family services
-        - text: Babysitting/child services (Additional charge)
-        - text: Shared lounge/TV area
-        - text: Airport shuttle (additional charge)
-        - text: Shuttle service (additional charge)
-        - text: Air conditioning
-        - text: Chapel/shrine
-        - text: Safety deposit box
-        - text: Bridal suite
-        - text: Barber/beauty shop
-        - text: Facilities for disabled guests
-        - text: Non-smoking rooms
-        - text: Newspapers
-        - text: Room service
-        - text: The SPA E wellnes centre area
-    meals: Restaurant Borgo Antico. Art with taste. Where chefs’ prowess, territory and architectural beauty blend. The “Borgo Antico” (the ancient village) is a small hamlet rich in flavours, which completes your sensorial experience at Villa Quaranta, fascinating your senses with the seductive force of taste and the produce of the land in an artistic country setting. The Restaurant Borgo Antico presents local tradition recipes in tune with the flow of the seasons. The Cantina in Villa (the Villa’s cellar) and the Bottega del Gusto (the workshop of taste) welcome you with wine tasting and virtual wine-and-food tours, also with the advice from our experts. Together with Tommasi Viticoltori wines. Special diet menus
     link: http://www.villaquaranta.com/en/villa-quaranta-park-hotel-verona-en/rooms-and-suites/double-standard/
   terms-and-conditions: This offer is based on two adults only and is available for stays on the dates indicated above. Check-in is at 3pm and check-out at 11am (unless otherwise notified). Travel is not included. The offer is 100% non-refundable and date changes are not possible once the booking has been made.
-  link: http://www.bitn.it/book-your-secret-escapes-offer/valpolicella
+  link: http://www.bitn.it/book-your-secret-escapes-offer/valpolicella?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017
 
 
 - id: tuscany
@@ -181,66 +148,9 @@
   hotel:
     title: Borgo I Tre baroni
     description: You’ll spend three nights at the charming Borgo I Tre baroni, a luxurious Tuscan retreat that offers panorama over the Casentino valley. You’ll be treated to traditional Tuscan fare in the hotel restaurant, with a four-course meal to indulge in. A cooking class will offer insight into the traditions of this stellar foodie region, before sinking into the hotel spa for a wellness package to rejuvenate the senses. A perfect Tuscan getaway.
-    room: The Comfort Rooms are the coziest rooms, some with an excellent view on the Valley with arched windows. These 5 rooms wth full size bed are perfect for 2 or 3 people
-    services:
-      list:
-        - text: Free wi-fi
-        - text: minibar
-        - text: digital TV
-        - text: courtesy kit
-        - text: hairdryer
-        - text: Sun Deck
-        - text: Terrace
-        - text: Grounds
-        - text: Pool and Spa
-        - text: Fence Around Pool
-        - text: Pool Towels
-        - text: Pool With View
-        - text: Outdoor Pool (seasonal)
-        - text: Hot Tub/Jacuzzi (additional charge)
-        - text: Massage (additional charge)
-        - text: Spa
-        - text: Sauna
-        - text: Clothes rack
-        - text: Pets are allowed. Charges may apply.
-        - text: Library
-        - text: Bicycle Rental (additional charge)
-        - text: Telephone
-        - text: Free private parking is available on site (reservation is not needed).
-        - text: Front Desk Services
-        - text: Concierge Service
-        - text: Tour Desk
-        - text: Daily Housekeeping
-        - text: Ironing Service (additional charge)
-        - text: Laundry (additional charge)
-        - text: Business Facilities
-        - text: Fax/Photocopying (additional charge)
-        - text: Meeting/Banquet Facilities
-        - text: Shared Lounge/TV Area
-        - text: Airport Shuttle (additional charge)
-        - text: All Spaces Non-Smoking (public and private)
-        - text: Wake-up service
-        - text: Heating
-        - text: Tile/Marble floor
-        - text: Packed Lunches
-        - text: Safe
-        - text: Honeymoon Suite
-        - text: VIP Room Facilities
-        - text: Family Rooms
-        - text: Facilities for Disabled Guests
-        - text: Non-Smoking Rooms
-        - text: Newspapers
-        - text: Room Service
-    meals:
-      list:
-        - text: Kids' Meals (additional charge)
-        - text: Special Diet Meals (upon request)
-        - text: Restaurant With Dining Menu
-        - text: Breakfast in the Room
-        - text: Continental buffet breakfast
     link: http://www.itrebaroni.it/comfort-room/
   terms-and-conditions: "This offer is based on two adults only and is available for stays on the dates indicated above. Check-in is at 3pm and check-out at 11am (unless otherwise notified). Travel is not included. The offer is 100% non-refundable: one date change is possible only if made 30 days before the arrival date (of the original booking)."
-  link: http://www.bitn.it/book-your-secret-escapes-offer/tuscany
+  link: http://www.bitn.it/book-your-secret-escapes-offer/tuscany?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017
 
 
 - id: umbria-01
@@ -268,12 +178,9 @@
   hotel:
     title: Borgo San Pietro Aquaeortus
     description: You’ll spend three nights at the remarkable Borgo San Pietro Aquaeortus, an old suburb near Allerona converted from an 11th century abbey complex. Now host to holiday apartments, it’s medieval architecture makes for a truly remarkable stay. An outdoor swimming pool, breakfast each morning and horseback riding completes your unique Umbrian getaway.
-    room: Twenty-five housing units of various sizes were created in the suburb in order to satisfy the needs of a wide range of customers who have the possibility of staying in "ancient rooms" supplied with all modern comforts (wi fi connection, satellite antenna and flat screen television).
-    services: The facility includes a restaurant and a congress hall both located within the medieval church, whose interior was renovated to host new tasks. In addition, there is an outdoor swimming pool with natural massaging water jets coming out of the stone, an indoor wellness center with a small seawater pool for thalassotherapy, a fully equipped fitness center and a wine bar with outdoor garden terrace are at disposal. The outdoor area, designed by a landscape architect, has been “furnished” with plants, flowers, fruit trees typical of the Umbrian countryside, and “forgotten” essences, thanks to an accurate flower archaeology study.
-    meals: Buffet Breakfast.
     link: http://www.spao.it/
   terms-and-conditions: "This offer is based on two adults only and is available for stays on the dates indicated above. Check-in is at 3pm and check-out at 11am (unless otherwise notified). Travel is not included. The offer is 100% non-refundable: one date change is possible only if made 30 days before the arrival date (of the original booking)."
-  link: http://www.bitn.it/book-your-secret-escapes-offer/umbria
+  link: http://www.bitn.it/book-your-secret-escapes-offer/umbria?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017
 
 
 - id: umbria-02
@@ -306,12 +213,9 @@
   hotel:
     title: Locanda Poggioleone
     description: A truly rustic stay, you’ll spend three nights, with breakfast each morning, at Locanda Poggioleone. This charming villa in the verdant Umbrian countryside offers an elegant setting for true relaxation. A romantic dinner is included, for a chance to try true Umbrian delicacies. Horseback riding completes this idyllic rural getaway.
-    room: "SUPERIOR ROOM (for the entire stay, for 2 people) 79 GBP. At the Locanda Poggioleone, you will have the pleasure of finding yourself enveloped in the warm embrace of a family atmosphere: terracotta flooring, exposed roof beams, antique furnishings and quality finishings will make you feel truly at home. The Standard rooms have ceilings with exposed wood beams, furniture of the late nineteenth century and wrought iron beds. The bathroom has travertine tiles, a large shower and toiletries. In-room safe, air conditioning, desk, heating, disponibilitdi rooms, Tiled Marble floor, Mosquito. The Superior rooms featuring furniture of the nineteenth century and wrought iron bed, this elegant room has views of the garden and the lake, and a large bathroom with tub. Room facilities: lake view, garden view, telephone, radio, laptop safe, flat-screen TV, safe, air conditioning, desk, heating, disponibilitdi rooms, Mosquito Net, Wardrobe / Closet, Bath, Hairdryer, Free toiletries, Toilet, Bathroom, Refrigerator, upper floors accessible by elevator.Bed type: 1 double bed."
-    services: "Familiar and warm hospitality can be found at the Locanda del Poggioleone, a comfortable, elegant and relaxing environment: large rooms, wide glass veranda, garden with secular olive trees, terrace with breath-taking views, hydromassage pool, traditional terracotta flooring and roof-beamed ceilings are just some of the features you will enjoy."
-    meals: Every morning a rich buffet breakfast is set with traditional cakes and home-made jams according to secret recipes. Fresh pasta such as ravioli, the pici ( typical thick and flat pasta from Umbria), tagliatelle hand made and other local specialities are offered at the Locanda’s restaurant. Buffet Breakfast.
     link: http://www.locandapoggioleone.it/en/rooms-umbria-hotel/standard-room/
   terms-and-conditions: "This offer is based on two adults only and is available for stays on the dates indicated above. Check-in is at 3pm and check-out at 11am (unless otherwise notified). Travel is not included. The offer is 100% non-refundable: one date change is possible only if made 30 days before the arrival date (of the original booking)."
-  link: http://www.bitn.it/book-your-secret-escapes-offer/nature
+  link: http://www.bitn.it/book-your-secret-escapes-offer/nature?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017
 
 
 - id: umbria-03
@@ -342,12 +246,9 @@
   hotel:
     title: Albergo Duomo
     description: Staying in the historic Albergo Duomo, you’ll be treated to three nights with breakfast in this restored palace. The hotel restaurant serves in the Umbrian tradition, with a romantic aperitif including cold meats and cheeses from local farms all served to your room. Discover the beguiling Marmore Falls, amongst the highest in Europe, built by the Romans. You’ll also enjoy a tour of an esteemed local vineyard, including tasters and local meats and cheeses.
-    room: "DELUXE ROOM (for the entire stay, for 2 people) 79 GBP. The Hotel has 24 rooms (comfort, superior and deluxe) and 7 suites extraordinary beautifully renovated including the beautiful Spa Suites with jacuzzi, panoramic view, bathroom with walk-in marble shower and turkish bath. The Comfort rooms are located in the Palace adjacent to the main body of the hotel and connected to it via an internal direct passage. The Palace in country-elegance style offers recently renovated rooms with: tv colour, direct phone line, Free wired internet, minibar, heating / air conditioning, free wi-fi. The private bathroom has a hair dryer. Deluxe rooms are spacious, cozy and elegant and provided with: TV LCD, direct phone line, connecting ADSL cable internet, minibar, heating / air conditioning, Free wi-fi. Bathrooms are spacious and elegant with bath and / or shower and have hairdryer."
-    services: The park, facing the hotel, is a perfect setting for a relaxing drink as well as for the happiest events. Besides the hotel offers free parking, an arranged access to the nearby San Gemini swimming pool, a children’s playground, room service and limousine service on request.
-    meals: In the kitchen of the restaurant, creativity and tradition are the best ingredients. Skills and passion to create dishes in which the creativity of the kitchen interprets the seasonal flavors of Umbrian tradition. Buffet Breakfast.
     link: http://www.albergoduomosangemini.it/en/comfort/
   terms-and-conditions: "This offer is based on two adults only and is available for stays on the dates indicated above. Check-in is at 3pm and check-out at 11am (unless otherwise notified). Travel is not included. The offer is 100% non-refundable: one date change is possible only if made 30 days before the arrival date (of the original booking)."
-  link: http://www.bitn.it/book-your-secret-escapes-offer/sangemini
+  link: http://www.bitn.it/book-your-secret-escapes-offer/sangemini?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017
 
 
 - id: marche
@@ -379,45 +280,9 @@
   hotel:
     title: Tenuta Santi Giacomo E Filippo
     description: A forgotten Borgo was turned around into an effortlessly charming escape in Marche. You’ll spend three nights at this unique resort, with breakfast each morning and a three-course dinner to be enjoyed at the restaurant. You’ll spend a day rejuvenating the spa, with hammam, massages and treatments to indulge in. To complete this rustic retreat, you’ll be given a tour of the resort’s winery, with tasting.
-    room: Featuring 22 rooms and 11 apartment-suites, the Urbino Resort is laid out across six of the buildings that made up this ancient farming community, each different from the next but all decorated to reflect the local setting, with furnishings hand-picked for the purpose and refined details providing the elegant finishing touches.
-    services:
-      list:
-        - text: Outdoor pool
-        - text: Indoor pool
-        - text: Hammam
-        - text: Hot tub/jacuzzi
-        - text: Massage
-        - text: Spa and wellness centre
-        - text: Sauna
-        - text: Luggage storage
-        - text: 24-hour front desk
-        - text: Entertainment and family services
-        - text: Children television networks
-        - text: Babysitting/child services (Additional charge)
-        - text: Shared lounge/TV area
-        - text: Shuttle service (additional charge)
-        - text: Designated smoking area
-        - text: Air conditioning
-        - text: Non-smoking throughout
-        - text: Heating
-        - text: Chapel/shrine
-        - text: Gift shop
-        - text: Safety deposit box
-        - text: Lift
-        - text: VIP room facilities
-        - text: Family rooms
-        - text: Facilities for disabled guests
-        - text: Non-smoking rooms
-        - text: Room service
-    meals:
-      list:
-        - text: Kid meals (Additional charge)
-        - text: Special diet menus (on request)
-        - text: Restaurant (à la carte)
-        - text: Continental buffet breakfast
     link: http://tenutasantigiacomoefilippo.it/en/hotel/rooms-suites/i-fiori/
   terms-and-conditions: "This offer is based on two adults only and is available for stays on the dates indicated above. Check-in is at 3pm and check-out at 11am (unless otherwise notified). Travel is not included. The offer is 100% non-refundable: one date change is possible only if made 30 days before the arrival date (of the original booking)."
-  link: http://www.bitn.it/book-your-secret-escapes-offer/marche
+  link: http://www.bitn.it/book-your-secret-escapes-offer/marche?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017
 
 
 - id: sicily
@@ -444,25 +309,9 @@
   hotel:
     title: Relais Antiche Saline
     description: Relais Antiche Saline is an ancient farmhouse that looks out over this unique location. Migratory birds pass overhead, easily spotted from your room with a view. Three nights include breakfast each morning, plus a guided tour of the Saline Park and entrance to the local salt museum. A perfect nature lover’s retreat in Sicily.
-    room: Supplement for Dinner at hotel (for 2 people, for a fish dinner with 3 courses, drinks included - 1/2 water, 1/4 wine ). Available from 01.03 to 31.05. All rooms are simply furnished but with pleasantness and functionality; They have air conditioning and are equipped with mini bar, TV, direct telephone and a bright and spacious bathrooms with shower and / or bath. Your room is on the ground floor and  have views of the garden, the Egadi islands and salt marshes.
-    services:
-      list:
-        - text: Welcoming the Guest;
-        - text: Welcome and accommodation in rooms;
-        - text: Support the guest during the stay;
-        - text: Continental breakfast buffet;
-        - text: Catering at "Trattoria del Sale" (the restaurant provides the service for lunch and dinner from Tuesday to Sunday, remaining closed for the day on Monday);
-        - text: Bar service;
-        - text: Restructuring rooms daily;
-        - text: Mediterranean garden served as a relaxation area, solarium, outdoor pool, jacuzzi;
-        - text: Guided excursions to the salt pans with WWF personnel;
-        - text: Bird watching;
-        - text: for individual well-being services;
-        - text: Bikes.
-    meals: Trattoria della Sale is  adjacent to the salt museum. Here you can revive the aromas and tastes of Trapani's cuisine, with salt fish, daisies and oregrows grown in salt basins in a natural way. Buffet continental breakfast
     link: http://lnx.relaisantichesaline.it/site/camere/#googtrans(en)
   terms-and-conditions: "This offer is based on two adults only and is available for stays on the dates indicated above. Check-in is at 3pm and check-out at 11am (unless otherwise notified). Travel is not included. The offer is 100% non-refundable and date changes are not possible once the booking has been made."
-  link: http://www.bitn.it/book-your-secret-escapes-offer/trapani
+  link: http://www.bitn.it/book-your-secret-escapes-offer/trapani?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017
 
 
 - id: apulia
@@ -472,7 +321,7 @@
   price: 315
   price-description: two people for 3 nights
   saving: 25
-  description: In the heart of the medieval warren of Bovino you’ll find Residenza Ducale, in the shadow of the grand Ducal Castle. This charming Borgo offers narrow alleys that lead to small boulevards hosting cafes and restaurants, where streets interrupt the traditional homesteads to offer gorgeous views of the surrounding hills.
+  description: In the heart of the medieval warren of Bovino you’ll find Albergo Diffuso, a collection of enviable stays in the shadow of the grand Ducal Castle. This charming Borgo offers narrow alleys that lead to small boulevards hosting cafes and restaurants, where streets interrupt the traditional homesteads to offer gorgeous views of the surrounding hills.
   valid-dates:
     - text: from 04/05/2018 to 07/05/2018
     - text: from 25/05/2018 to 28/05/2018
@@ -486,26 +335,10 @@
     - text: Tourist city tax if requested by the hotel to be paid directly on site
     - text: Personal Extras and anything not mentioned under "Package inclusions"
   hotel:
-    title: Residenza Ducale
-    description: Residenza Ducale is decked with traditional interiors, offering a regal stay in this rural treasure. In the heart of the Borgo, you’ll spend three nights in the comfort room with breakfast each morning. You’ll also visit the ancient mill and be treated to a tasting of local produce. This luxurious stay also includes a visit to the wellness and spa experience, with turkish bath, salt cave, sauna and more.
-    room: SUPERIOR ROOM (on request - for the entire stay, for 2 people) 40 GBP. Each room is cared in the smallest details and through their language, express moods, good feelings, and precise messages. It is a particular way to look forward to welcoming and expressing respect, friendship and gratitude for all who will choose this characteristic "Albergo Diffuso"
-    services:
-      list:
-        - text: Garden
-        - text: Parking,Airport shuttle service
-        - text: Express check-in/check-out
-        - text: free WI-FI
-        - text: Non-smoking throughout
-        - text: Heating
-        - text: Chapel/shrine
-        - text: Soundproof rooms
-    meals:
-      list:
-        - text: Breakfast in the Room
-        - text: Continental buffet breakfast
-    link: http://www.residenzaducale.it/
+    title: Albergo Diffuso
+    description: Each of the Albergo Diffuso are decked with traditional interiors, offering a regal stay in this rural treasure. In the heart of the Borgo, you’ll spend three nights in comfort with breakfast each morning. You’ll also visit the ancient mill and be treated to a tasting of local produce. This luxurious stay also includes a visit to the wellness and spa experience, with turkish bath, salt cave, sauna and more.
   terms-and-conditions: "This offer is based on two adults only and is available for stays on the dates indicated above. Check-in is at 3pm and check-out at 11am (unless otherwise notified). Travel is not included. The offer is 100% non-refundable: one date change is possible only if made 30 days before the arrival date (of the original booking)."
-  link: http://www.bitn.it/book-your-secret-escapes-offer/apulia
+  link: http://www.bitn.it/book-your-secret-escapes-offer/apulia?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017
 
 
 - id: sardinia
@@ -533,25 +366,6 @@
   hotel:
     title: Hotel Riviera
     description: You’ll spend three nights in the Superior seaview room, with breakfast each morning. To start your foodie adventure, you’ll be treated to appetisers on the hotel’s terrace, with effortlessly romantic views over the Borgo. A four-course dinner awaits in the hotel restaurant for true Sardinian flavours, completing an afternoon indulging in the spa and wellness package.
-    room: soundproofed and well-appointed rooms with every comfort.
-    services:
-      list:
-        - text: Infinity pool
-        - text: Outdoor pool (seasonal)
-        - text: Outdoor pool
-        - text: Massage room (Additional charge)
-        - text: Spa and wellness centre
-        - text: Mini-market on site
-        - text: Air conditioning
-        - text: Shops (on site)
-        - text: Heating
-        - text: Tile/Marble floor
-        - text: Soundproof rooms
-        - text: Safety deposit box
-        - text: Lift
-        - text: Non-smoking rooms
-        - text: Safety Deposit Box
-    meals: Continental buffet breakfast. ypical Sardinian specialities and fresh fish for lunch and dinner.
     link: http://www.hotelriviera.net/camere/
   terms-and-conditions: "This offer is based on two adults only and is available for stays on the dates indicated above. Check-in is at 3pm and check-out at 11am (unless otherwise notified). Travel is not included. The offer is 100% non-refundable: one date change is possible only if made 30 days before the arrival date (of the original booking)."
-  link: http://www.bitn.it/book-your-secret-escapes-offer/sardinia
+  link: http://www.bitn.it/book-your-secret-escapes-offer/sardinia?utm_source=SE_MEDIA&utm_medium=Hub&utm_campaign=Borghi_Nov2017

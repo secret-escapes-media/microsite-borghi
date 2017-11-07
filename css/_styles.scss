@@ -1,37 +1,38 @@
 // general styles for the project that wouldn't be a reuseable component
 
 .bg {
-  &--black         { background-color: $black; }
-  &--b-grey        { background-color: $b-grey; }
-  &--grey-darker   { background-color: $grey-darker; }
   &--grey-lightest { background-color: $grey-lightest; }
-  &--white         { background-color: $white; }
-}
-
-.content-bg {
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .site-title {
-  height: 100%;
+  position: relative;
+  height: 750px;
   padding-top: $core-nav-height-sm;
   padding-bottom: $core-nav-height-sm;
+  color: $white;
   @include bp(md){
     padding-top: $core-nav-height;
     padding-bottom: $core-nav-height;
   }
-  color: $white;
+  @include vbp(650px){
+    height: 100%;
+    padding-top: 22.5vh;
+  }
   .flexbox & {
     display: flex;
     align-items: center;
+    padding-top: $core-nav-height;
   }
 }
 
 .img-block {
+  text-align: center;
+  line-height: 0;
   > * { display: inline-block; }
-  &--3-3-3 > * { width: 33.33%; }
+  &--3-3-3 > * { width: 100%; max-width: 300px; }
+  @include bp(lg){
+    &--3-3-3 > * { width: 33.33%; max-width: none; }
+  }
 }
 
 .price {
@@ -41,15 +42,15 @@
   line-height: 1;
 }
 
-.intro {
-  color: $white;
-  background-color: rgba($black,.5);
-}
-
-.page--overview {
+.site__bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: $z-background;
   background-image: url('../img/bg/bg.jpg');
   @include background-attributes;
-  background-attachment: fixed;
 }
 
 .is-stuck {
@@ -59,29 +60,7 @@
   z-index: $z-nav-upper;
 }
 
-#veneto-offers {
-  position: relative;
+.nbsp {
+  display: none;
+  @include bp(lg){ display: inline; }
 }
-
-#veneto-offers:before {
-  position: absolute;
-  top: -90px;
-  content:"";
-  display:block;
-  height:90px;
-  padding-top:90px;
-
-
-
-}
-
-// :target:before {
-//   content:"";
-//   top: -$core-nav-height;
-//   position: absolute;
-//   display:block;
-//   background-color: red;
-//   height: $core-nav-height; /* fixed header height*/
-//   width: 20px;
-//   // margin-top: -$core-nav-height; /* negative fixed header height */
-// }

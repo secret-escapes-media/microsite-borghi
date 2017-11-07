@@ -51,18 +51,6 @@ if ("ontouchstart" in document.documentElement){
     $('.mobile-nav').toggleClass('is-open').toggleClass('is-closed');
   });
 
-  // // current page nav highlight
-  // var currentPage = $('body').data('current-page');
-  //
-  // // add class to individual nav item
-  // $('.page--' + currentPage + ' [class*=nav__item--' + currentPage + ']').addClass('is-current');
-
-  // var currentCategory = $('body').data('current-category');
-  // // if there is a category, add class to category nav item
-  // if (currentCategory !== ''){
-  //   $('.category--' + currentCategory + ' [class*=nav__item--' + currentCategory + ']').addClass('is-current');
-  // }
-
 
 
 ////////////////////////////////////////////////////////////////////////////////

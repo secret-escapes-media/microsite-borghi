@@ -3,21 +3,6 @@
   font-family: $font-family-headline-01;
   line-height: 1.33;
   font-weight: 400;
-  &--display {
-    font-family: $font-family-headline-02;
-    line-height: 1;
-    font-weight: 700;
-    // all of this for non oldstyle numbers
-    // this isn't working, should make svg and png, solid fallback. dont really need the numbers
-    font-variant-numeric: lining-nums;
-    -moz-font-feature-settings: "lnum" 1;
-    -moz-font-feature-settings: "lnum=1";
-     -ms-font-feature-settings: "lnum" 1;
-      -o-font-feature-settings: "lnum" 1;
-    -webkit-font-feature-settings: "lnum" 1;
-            font-feature-settings: "lnum" 1;
-  }
-
   &--core {
     font-family: $font-family;
     line-height: 1.25;
@@ -47,9 +32,9 @@
   &--lg           { font-size: $s4; }
   &--md           { font-size: $s3; }
   &--sm           { font-size: $s2; }
-  &--xs           { font-size: $s1; }
+  &--xs           { font-size: $s2; }
   &--xxs          { font-size: $s0; }
-  &--xxxs         { font-size: $s-1; }
+  &--xxxs         { font-size: $s0; }
 
   @include bp(md){
     &--display-size { font-size: $s11; }

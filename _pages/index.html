@@ -3,13 +3,13 @@ layout: default
 id: overview
 nav-order: 1
 title: Borghi of Italy
-intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam natus nihil blanditiis repudiandae, sequi non, eius aliquid molestias architecto, incidunt voluptate asperiores earum omnis quam nemo modi nesciunt accusantium, suscipit?
+intro: Effortlessly romantic, these medieval towns and villages are typified by their irresistible rustic charms, exquisite local cuisine, and breathtaking beauty.
 ---
 
 <div class="site-title">
   <div class="row row--padding row--xl text--center page__content">
     <h1>
-      <span class="title title--core title--xxxs title--upper title--kerning-lg">Discover the irresistible</span>
+      <span class="title title--core title--xxxs title--upper title--kerning-lg">Discover the beautiful</span>
       <span class="title title--xxxxl title--fancy">Borghi of&nbsp;Italy</span>
     </h1>
     <p class="text--xl">Effortlessly romantic, these medieval towns and villages are typified by their irresistible rustic charms, exquisite local cuisine, and breathtaking beauty.</p>
@@ -20,7 +20,7 @@ intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam natus nih
 
 {% for region in site.data.regions %}
   <section id="{{region.id}}" class="region region--{{region.id}} site-header__offset" style="background-image: url('{{site.baseurl}}/img/content/{{region.id}}/bg.jpg'); background-color:{{region.bg-color}};">
-    <div class="region__content">
+    <div class="region__content region--padding">
       <div class="row vpad--xxl row--xl text--center">
         <h1 class="region__title title">{{region.title}}</h1>
         <p class="text--xl">{{region.description}}</p>
@@ -34,7 +34,7 @@ intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam natus nih
       </div>
     </div>
 
-    <div id="{{region.id}}-offers" class="region__hotel">
+    <div id="{{region.id}}-offers" class="region__hotel region--padding">
       <!-- find if region category has multiple offers -->
       {% assign hotels-in-category = site.data.offers | where: 'category', region.id %}
       {% assign number-in-category = hotels-in-category | size %}
@@ -74,7 +74,9 @@ intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam natus nih
   <div class="panel__close js-close-panel"></div>
   <div class="panel__content">
     {% for offer in site.data.offers %}
-      {% include components/offer.html %}
+      {% include components/panel-offer.html %}
     {% endfor %}
   </div>
 </div>
+
+<div class="site__bg"></div>

@@ -20,42 +20,78 @@
       // close icon upper left of close area
       content: 'Close';
       position: absolute;
-      top: $s3;
-      left: $s3;
+      top: 0;
+      left: 0;
+      right: 0;
       display: block;
       background-image: url(../img/icons/close.png);
       background-repeat: no-repeat;
-      background-size: 25px;
-      width: 100px;
-      height: 25px;
-      padding-left: 40px;
+      background-size: 20px;
+      background-position: center;
+      width: 100%;
+      height: 50px;
       color: transparent;
       text-transform: uppercase;
+      text-align: center;
       letter-spacing: .25em;
-      line-height: 25px;
+      line-height: 50px;
       overflow: hidden;
       cursor: pointer;
       @include transition;
     }
-    &:hover    {
-      background-color: rgba($black,.85);
-      &:after { color: $white; }
+    @include bp(md){
+      &:after{
+        height: 80px;
+        line-height: 80px;
+      }
+    }
+    @include bp(xxl){
+      &:after{
+        top: $s3;
+        left: $s3;
+        width: 100px;
+        padding-left: 40px;
+        text-align: left;
+        line-height: 25px;
+
+        background-size: 25px;
+        background-position: 0 0;
+      }
+      &:hover    {
+        background-color: rgba($black,.8);
+        &:after { color: $white; }
+      }
     }
   }
   &__content {
     position: fixed;
-    top: 0;
-    right: -($xxxl);
+    top: 100%;
+    right: 0;
+    left: 0;
     bottom: 0;
     z-index: $z-overlay-upper;
-    width: 90%;
+    width: 100%;
     max-width: $xxxl;
     background-color: $white;
-    overflow-x: auto;
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
     @include transition;
-    .is-open &  { right: 0; }
+    .is-open &  { top: 50px; }
+    @include bp(md){
+      .is-open &  { top: 80px; }
+    }
+    @include bp(xxl){
+      top: 0;
+      left: auto;
+      right: -($xxxl);
+      width: 90%;
+      width: calc(100% - 150px);
+      .is-open &  { top: 0; right: 0; }
+    }
     // all offers are loaded in panel' content, this hides non selected offers
     > *         { display: none; }
     > *.is-open { display: block; }
   }
 }
+
+.disable-scroll { overflow: hidden; }
