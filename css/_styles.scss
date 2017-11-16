@@ -50,6 +50,7 @@
   bottom: 0;
   z-index: $z-background;
   background-image: url('../img/bg/bg.jpg');
+  background-color: #302419;
   @include background-attributes;
 }
 
